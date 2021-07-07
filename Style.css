@@ -1,0 +1,482 @@
+.first_hd{
+    background-image: url(img/landing-10.jpg);
+    height: 800px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* --------------- nav bar -------------- */
+
+.main_dv{
+    padding: 50px 0px;
+}
+
+.nav_br .nv{
+    margin-right: 25px;
+    font-size: 20px;
+    color: #e6dada;
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+.nav_br .nv:hover{
+    color: white;
+}
+
+.nav_br a i{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* -------- logo -------- */
+
+.logo img{
+    width: 100px;
+}
+
+/* ------- btn -------- */
+
+.hd_btn .btn{
+    padding: 9px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+    transition: .2s;
+    position: relative;
+}
+.hd_btn .btn:hover{
+    margin-top: -5px;
+}
+.hd_btn .btn:nth-child(1){
+    border: 1px solid #ffffff61
+}
+.hd_btn .btn:nth-child(1):hover{
+    border: 1px solid white;
+}
+.hd_btn .btn:nth-child(2){
+    background-color: #007bff;
+    margin-right: 0px;
+}
+.hd_btn .btn:nth-child(2):hover{
+    background-color: #609DE6;
+}
+.pic_logo{
+    text-align: center;
+    margin-top: 80px;
+}
+.pic_logo img{
+    width: 800px;
+}
+
+/* ------ heading + button -------- */
+
+.hd_b{
+    text-align: center;
+    margin-top: 50px;
+}
+.hd_b h3{
+    font-weight: 300;
+    color: white;
+}
+.hd_b .btn2{
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin-right: 15px;
+    transition: .1s;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: none;
+}
+.hd_b .btn2:hover{
+    background-color: #609DE6;
+}
+.hd_b .btn2:active{
+    background-color: #3483DE;
+}
+
+/* ------- section --------- */
+
+.hot_sec{
+    background-color: white;
+    border-bottom: 1px solid #d2cccc;
+}
+.hot{
+    text-align: center;
+    margin: 30px 0px;
+}
+.hot p{
+    font-size: 20px;
+    color: #666666;
+}
+.hot span{
+    background-color: #31639C;
+    margin-right: 10px;
+    padding: 4px 13px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+}
+.link{
+    margin: 0px 8px;
+}
+
+/* ------- image section --------- */
+
+.image_sec{
+    background-color: #ffffff;
+    margin: 150px 0px;
+}
+.img_wrapper{
+    text-align: center;
+}
+
+.for_b{
+    border: 1px solid #eae4e4;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0px 10px 30px -15px;
+    transition: .3s;
+}
+.for_b:hover{
+    box-shadow: none;
+}
+.finl_img img{
+    width: 399px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+}
+.detl_w{
+    margin: 30px 35px;
+    text-align: left;
+    line-height: 20px;
+    position: relative;
+}
+.detl_w .bld_T{
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 24px;
+}
+.detl_w .p{
+    font-size: 20px;
+    line-height: 5px;
+}
+.detl_w a{
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+.detl_w a:hover{
+    text-decoration: underline;
+}
+
+.detl_w span{
+    background-color: #31639C;
+    margin-right: 10px;
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: -35px;
+    top: -20px;
+}
+
+/* --------- perfect for developer section ----------- */
+
+.al_rap{
+    text-align: center;
+    display: block;
+    width: 730px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.al_rap h1{
+    font-weight: 300;
+    font-size: 45px;
+}
+.al_rap p{
+    font-size: 25px;
+}
+
+/* --------- service section --------- */
+
+
+.builder-reper{
+
+margin: 150px 0px;
+
+height: 269px;
+}
+.single_dv{
+    display: block;
+    width: 630px;
+    float: left;
+    border: 1px solid #eae2e2;
+    margin-left: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px -15px;
+    transition: .3s;
+}
+.single_dv:hover{
+    box-shadow: none;
+}
+.single_dv:nth-child(1){
+    margin-left: 0px;
+}
+.single_dv:nth-child(2){
+    border-bottom: 5px solid #4A90E2;
+    position: relative;
+}
+
+
+.single_dv span{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 3px 10px;
+    background-color: #4A90E2;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+.single_dv i{
+    font-size: 80px;
+    float: left;
+}
+.single_dv h6{
+    font-size: 22px;
+    margin-left: 95px;
+}
+.single_dv p{
+    font-size: 18px;
+    margin-left: 95px;
+}
+.single_dv .moreRD{
+    font-size: 17px;
+    margin-left: 95px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.single_dv .moreRD:hover{
+    text-decoration: underline;
+}
+
+/* -------- last section wraper ---------- */
+
+.last_section{
+    background-color: #FAFAFA;
+    border-top: 1px solid #d6d7d7;
+}
+.l_s_wrap{
+    margin: 130px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.l_s_wrap h1{
+    font-weight: 300;
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/* ----- image and video section -------- */
+.vdo_section{
+   position: relative;
+}
+
+.image_div{
+    width: 543px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.image_div img{
+    width: 543px;
+    height: 360px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.vdo_section i{
+    padding: 55px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .2s;
+    cursor: pointer;
+}
+.vdo_section i:hover{
+    transform: translate(-50%, -52%);
+    box-shadow: 0px 30px 60px -10px;
+}
+
+.vdo_section iframe{
+    width: 540px;
+    height: 360px;
+    border-radius: 8px;
+    margin-top: -335px;
+}
+
+/* ---------- down heading ----------- */
+
+.under_hd{
+    display: block;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.under_hd span{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.under_hd a{
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.under_hd a:hover{
+    text-decoration: underline;
+}
+
+/* -------- last heading link --------- */
+
+.l_h_f{
+    background-color: #4a90e2;
+    padding: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.l_h_f:hover{
+    background-color: #5798E4;
+}
+.l_h_f:hover h2 a{
+    text-decoration: underline;
+}
+
+.l_h_f h2 a{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+/* --------- footer section ---------- */
+
+.ft_sec{
+    background-color: #252525;
+    padding-top: 130px;
+    color: white;
+}
+.sng_prt span{
+    font-size: 19px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 30px;
+}
+.sng_prt p{
+    font-size: 19px;
+}
+.ft_main_wrp{
+    margin-bottom: 50px;
+}
+
+        /* second row */
+
+.sng_prt i{
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.sng_prt .ro2sec{
+    margin-left: 35px;
+}
+.sng_prt p .theme{
+    font-size: 19px;
+    color: white;
+
+}
+.sng_prt p .frlnk{
+    font-size: 19px;
+    color: white;
+}
+.inpt_bx{
+    padding: 7px 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 600;
+}
+.inpt_bx:focus{
+    outline: none;
+}
+.sbmtBtn{
+    width: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+/* ------ last footer section ------ */
+
+.last_ft{
+    padding: 35px 0px;
+    background: #181818;
+}
+.lst_wraper{
+
+}
+.lst_wraper span{
+    font-size: 17px;
+    color: #858585;
+}
+
+.socal_lnk{
+    float: right;
+}
+.socal_lnk i{
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+    padding: 5px 8px;
+}
+.socal_lnk i:nth-child(1):hover{
+    color: #4081EC;
+}
+.socal_lnk i:nth-child(2):hover{
+    color: #00A7E7;
+}
+.socal_lnk i:nth-child(3):hover{
+    color: #4064AC;
+}
+.socal_lnk i:nth-child(4):hover{
+    color: #F43395;
+}
